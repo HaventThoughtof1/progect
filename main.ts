@@ -16,4 +16,5 @@ let mySprite = sprites.create(img`
     . . c b d d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
     `, SpriteKind.Player)
-mySprite.setVelocity(50, 50)
+mySprite.vy = 50
+tiles.setCurrentTilemap(tilemap`level1`)
